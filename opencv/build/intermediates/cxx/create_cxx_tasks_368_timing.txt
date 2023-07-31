@@ -1,0 +1,71 @@
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    create-module-model
+      create-cmake-model 299ms
+    create-module-model completed in 314ms
+    [gap of 10ms]
+    create-ARMEABI_V7A-model 13ms
+    create-ARM64_V8A-model 13ms
+    [gap of 11ms]
+    create-X86_64-model 12ms
+    create-module-model
+      [gap of 11ms]
+      create-cmake-model 255ms
+    create-module-model completed in 270ms
+    create-variant-model 10ms
+    create-ARMEABI_V7A-model 11ms
+    create-ARM64_V8A-model 12ms
+    create-X86-model 13ms
+    create-X86_64-model 14ms
+  create-initial-cxx-model completed in 709ms
+create_cxx_tasks completed in 712ms
+
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    create-module-model
+      create-cmake-model 306ms
+      [gap of 26ms]
+    create-module-model completed in 341ms
+    create-variant-model 19ms
+    create-ARMEABI_V7A-model 11ms
+    create-ARM64_V8A-model 13ms
+    create-X86-model 10ms
+    create-X86_64-model 13ms
+    create-module-model
+      [gap of 19ms]
+      create-cmake-model 428ms
+    create-module-model completed in 453ms
+    [gap of 10ms]
+    create-ARMEABI_V7A-model 11ms
+    create-ARM64_V8A-model 11ms
+    create-X86-model 12ms
+    create-X86_64-model 11ms
+  create-initial-cxx-model completed in 926ms
+create_cxx_tasks completed in 931ms
+
+# C/C++ build system timings
+create_cxx_tasks
+  create-initial-cxx-model
+    create-module-model
+      [gap of 11ms]
+      create-cmake-model 2751ms
+      [gap of 23ms]
+    create-module-model completed in 2785ms
+    [gap of 16ms]
+    create-variant-model 375ms
+    create-ARMEABI_V7A-model 40ms
+    create-X86-model 348ms
+    create-X86_64-model 18ms
+    create-module-model
+      create-cmake-model 1331ms
+    create-module-model completed in 1342ms
+    create-variant-model 14ms
+    create-ARMEABI_V7A-model 11ms
+    create-ARM64_V8A-model 11ms
+    create-X86-model 34ms
+    create-X86_64-model 13ms
+  create-initial-cxx-model completed in 5035ms
+create_cxx_tasks completed in 5039ms
+
